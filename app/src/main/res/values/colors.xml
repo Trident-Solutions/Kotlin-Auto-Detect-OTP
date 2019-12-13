@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="welcome_title">#0F216D</color>
+    <color name="greeting">#7E8795</color>
+    <color name="button_bg">#6C63FF</color>
+    <color name="welcome_platform">#131415</color>
+    <color name="mobile_no_bg">#DBDFEC</color>
+    <color name="otp_success">#33cc33</color>
+    <color name="status_bar">#F2F1FD</color>
+    <color name="verify_no">#7B819A</color>
+    <color name="mobile_no">#424344</color>
+    <color name="resend_otp">#F48D6C</color>
+    <color name="layout_bg">#80F2F1FD</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+</resources>

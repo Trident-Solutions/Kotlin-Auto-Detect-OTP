@@ -1,0 +1,70 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+ext {
+    // repo name
+    bintrayRepo = 'maven'
+    //project name
+    bintrayName = 'AutoOTPDetection'
+    //enter your package name
+    publishedGroupId = 'com.trident.android.autodetectionotp'
+    //project name
+    libraryName = 'AutoOTPDetection'
+    //project name
+    artifact = 'AutoOTPDetection'
+// some description about your library
+    libraryDescription = 'AutoOTPDetection is an Android libary to Integrate Auto Detect OTP With Out Sms Permissions Required To Your Android Appliaction Essaily With less Stuff'
+    // github
+    siteUrl = 'https://github.com/pratheepchowdhary/AutoDetectOTPAndroid'
+    gitUrl = 'https://github.com/pratheepchowdhary/AutoDetectOTPAndroid.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'pratheepchowdhary'
+    developerName = 'Pratheep Kanati'
+    developerEmail = 'pratheepkanati@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'com.google.android.gms:play-services-auth-api-phone:17.3.0'
+    implementation 'com.google.android.gms:play-services-base:17.1.0'
+    implementation 'com.google.android.gms:play-services-identity:17.0.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

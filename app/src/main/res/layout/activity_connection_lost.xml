@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_connection_lost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linear_sim"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_connectionlost" />
+
+    <LinearLayout
+        android:id="@+id/linear_sim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/dimen_25dp"
+        android:paddingEnd="@dimen/dimen_25dp">
+
+        <com.trident.android.autootpdetection.utils.customfontviews.MuliBlackTextView
+            android:id="@+id/txt_conn_lost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/connection_lost"
+            android:textColor="@color/welcome_title"
+            android:textSize="@dimen/text_size_20sp"
+            android:textStyle="bold" />
+
+        <com.trident.android.autootpdetection.utils.customfontviews.MuliSemiBoldTextView
+            android:id="@+id/txt_error_conn_lost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:maxLines="2"
+            android:text="@string/error_msg_conn_lost"
+            android:textSize="@dimen/text_size_17sp" />
+
+        <com.trident.android.autootpdetection.utils.customfontviews.MuliRegularTextView
+            android:id="@+id/txt_try_again"
+            android:layout_width="@dimen/dimen_250_dp"
+            android:layout_height="@dimen/dimen_40_dp"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_marginBottom="@dimen/dimen_20dp"
+            android:background="@drawable/button_bg"
+            android:baselineAligned="false"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:shadowColor="#6C63FF"
+            android:text="@string/try_again"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_14sp" />
+    </LinearLayout>
+</RelativeLayout>

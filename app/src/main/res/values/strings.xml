@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AutoOTPDetection</string>
+    <string name="greetings">Greetings</string>
+    <string name="welcome_to">Welcome to \nTrident Apps</string>
+    <string name="welcome_to_our_new_platform">Welcome to our new Platform</string>
+    <string name="services">Try out our auto detect OTP functionality</string>
+    <string name="get_started">Get Started</string>
+    <string name="connection_lost">Sim not found!</string>
+    <string name="error_msg_conn_lost">Oops!, Looks like your Sim is missing.\n If not, let us know.</string>
+    <string name="todo">TODO</string>
+    <string name="try_again">Try Again</string>
+    <string name="verify_your_phone_number">Verify your \nPhone number</string>
+    <string name="selected_mobile_number">We will send you an OTP \nto the number </string>
+    <string name="mobile_number">Phone Number</string>
+    <string name="next">Next</string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="enter_your_otp_here">Enter your OTP here</string>
+    <string name="otp_not_received">Didn’t you receive any code?</string>
+    <string name="resend_a_new_code">Resend a new code</string>
+    <string name="_91">+91</string>
+</resources>
