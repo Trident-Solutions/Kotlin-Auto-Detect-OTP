@@ -2,9 +2,10 @@ package com.trident.android.autootpdetection.utils.customfontviews
 
 import android.content.Context
 import android.util.AttributeSet
-import com.trident.android.autootpdetection.R
 import com.trident.android.autootpdetection.utils.customfontviews.FontCache.getTypeface
-
+/**
+ * @author surya devi
+ */
 class MuliSemiBoldTextView : androidx.appcompat.widget.AppCompatTextView {
     constructor(context: Context) : super(context) {}
 

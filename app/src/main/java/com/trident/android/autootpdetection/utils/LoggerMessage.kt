@@ -2,6 +2,9 @@ package com.trident.android.autootpdetection.utils
 
 import android.util.Log
 
+/**
+ * @author surya devi
+ */
 object LoggerMessage {
 
     /**

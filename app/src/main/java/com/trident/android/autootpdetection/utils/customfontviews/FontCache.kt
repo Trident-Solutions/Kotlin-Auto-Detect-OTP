@@ -4,6 +4,9 @@ import android.content.Context
 import android.graphics.Typeface
 import java.util.HashMap
 
+/**
+ * @author surya devi
+ */
 object FontCache {
     private val fontCache = HashMap<String, Typeface>()
 
