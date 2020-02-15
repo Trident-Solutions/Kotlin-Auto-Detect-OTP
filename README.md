@@ -22,6 +22,11 @@ Kindly use the below sms format for testing the OTP internally by replacing the 
 
 For more information regarding the automatic verification SMS, Kindly refer this [document](https://developers.google.com/identity/sms-retriever/overview)
 
+## Design 
+https://dribbble.com/shots/9955834-OTP-Mobile?utm_source=Clipboard_Shot&utm_campaign=Trident_Solutions&utm_content=OTP%20Mobile&utm_medium=Social_Share
+
+https://www.uplabs.com/posts/otp-mobile
+
 ## License
 
     Copyright 2019, Trident Solutions
