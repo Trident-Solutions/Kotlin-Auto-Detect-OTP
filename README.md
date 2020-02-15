@@ -25,9 +25,9 @@ For more information regarding the automatic verification SMS, Kindly refer this
 ## Design 
 Kindly refer this link for design ,
 
-## Dribble link: https://dribbble.com/shots/9955834-OTP-Mobile?utm_source=Clipboard_Shot&utm_campaign=Trident_Solutions&utm_content=OTP%20Mobile&utm_medium=Social_Share
+Dribble link: https://dribbble.com/shots/9955834-OTP-Mobile?utm_source=Clipboard_Shot&utm_campaign=Trident_Solutions&utm_content=OTP%20Mobile&utm_medium=Social_Share
 
-# Uplabs link: https://www.uplabs.com/posts/otp-mobile
+Uplabs link: https://www.uplabs.com/posts/otp-mobile
 
 ## License
 
